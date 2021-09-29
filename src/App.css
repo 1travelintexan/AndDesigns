@@ -1,18 +1,26 @@
 body {
   background-color: rgba(252, 236, 251, 0.883);
 }
+
 .navbar {
-  margin: 0px;
-  padding: 0px;
-  background-color: rgb(245, 210, 250);
+  padding: 10px;
+  background-color: rgb(253, 239, 255);
+}
+
+.nav-link {
+  padding: 10px;
+  margin: 20px;
 }
 
 .nav-logo {
-  height: 100%;
-  margin: 0;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
 }
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  height: 100%;
+  background-color: brown;
+}
