@@ -1,14 +1,14 @@
 body {
-  background-color: rgba(255, 198, 252, 0.883);
+  background-color: rgba(252, 236, 251, 0.883);
 }
 .navbar {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(244, 160, 255);
+  background-color: rgb(245, 210, 250);
 }
 
 .nav-logo {
-  height: 100px;
+  height: 100%;
   margin: 0;
 }
 /* @media (prefers-reduced-motion: no-preference) {
