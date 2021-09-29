@@ -1,6 +1,16 @@
 body {
   background-color: rgba(255, 198, 252, 0.883);
 }
+.navbar {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(244, 160, 255);
+}
+
+.nav-logo {
+  height: 100px;
+  margin: 0;
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
