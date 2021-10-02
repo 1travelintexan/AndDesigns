@@ -10,13 +10,19 @@ function Footer() {
           url="https://www.instagram.com/anddesigns.20/"
           target="_blank"
           fgColor="#fff"
-          style={{ height: 80, width: 80 }}
+          style={{ height: 50, width: 50 }}
         />
         <SocialIcon
-          url="https://www.facebook.com/groups/anddesignsauctionsales"
+          url="https://www.facebook.com/ANDDesings.20/"
           target="_blank"
           fgColor="#fff"
-          style={{ height: 80, width: 80 }}
+          style={{ height: 50, width: 50 }}
+        />
+        <SocialIcon
+          url="https://vm.tiktok.com/ZMR3Jak8n/"
+          target="_blank"
+          fgColor="#fff"
+          style={{ height: 50, width: 50 }}
         />
       </div>
       <div>

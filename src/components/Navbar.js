@@ -15,21 +15,6 @@ function Navbar() {
         activeKey="1"
         onSelect={handleSelect}
       >
-        <Nav.Item>
-          <NavLink exact className="nav-link" eventKey="1" to="/">
-            Home
-          </NavLink>
-        </Nav.Item>
-        <Nav.Item>
-          <NavLink className="nav-link" eventKey="1" to="/about">
-            About
-          </NavLink>
-        </Nav.Item>
-        <Nav.Item>
-          <NavLink className="nav-link" eventKey="1" to="/contact">
-            Contact
-          </NavLink>
-        </Nav.Item>
         <NavDropdown title="Products" id="nav-dropdown">
           <NavDropdown.Item eventKey="4.1">Womens</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.2">
@@ -49,6 +34,22 @@ function Navbar() {
           <NavDropdown.Divider />
           <NavDropdown.Item eventKey="4.4">Follow us!</NavDropdown.Item>
         </NavDropdown>
+        <Nav.Item>
+          <NavLink exact className="nav-link" eventKey="1" to="/">
+            Home
+          </NavLink>
+        </Nav.Item>
+        <Nav.Item>
+          <NavLink className="nav-link" eventKey="1" to="/about">
+            About
+          </NavLink>
+        </Nav.Item>
+        <Nav.Item>
+          <NavLink className="nav-link" eventKey="1" to="/contact">
+            Contact
+          </NavLink>
+        </Nav.Item>
+
         <Nav.Item>
           <img className="nav-logo" src={logo} alt="logo" />
         </Nav.Item>
